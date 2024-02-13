@@ -1136,6 +1136,7 @@ boost_library(
         "@org_lzma_lzma//:lzma",
         "@zlib",
     ],
+    copts = [ "Wno-missing-field-initializers" ],
 )
 
 boost_library(
